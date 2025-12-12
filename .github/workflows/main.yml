@@ -1,8 +1,8 @@
 name: githubproject
 on: push
 jobs:
- github-demo:
+ githubbb-demo:
   runs-on:ubuntu-latest
   steps:
-   -name: print 
-    run:
+   -name: print os
+    run: echo "${{runner.os}}server "
