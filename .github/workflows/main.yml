@@ -4,5 +4,5 @@ jobs:
  githubbb-demo:
   runs-on: ubuntu-latest
   steps:
-   -name: print os
-    run: echo "${{runner.os}}server"
+   - name: print os
+     run: echo "${{ runner.os}}server"
