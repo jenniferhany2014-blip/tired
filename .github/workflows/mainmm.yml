@@ -1,0 +1,8 @@
+name: githubproject
+on: push
+jobs:
+ explore-github:
+  runs-on: ubuntu-latest
+  steps:
+   - name: print
+     run: echo "${{ runner.os}}"
